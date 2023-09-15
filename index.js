@@ -5,7 +5,8 @@ import readline from "readline";
 //create new instance of AI
 const ai = new OpenAI ({
     organization: "org-ECAN3PQNL9Y6aIax1RrPqWDp",
-    apiKey: "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"
+    apiKey: "DEMO_KEY",
+    max_tokens: 30
 });
 
 //create interface to send + recieve messages
